@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  text-align: center;
+  margin: 20px;
+}
+
+#harita {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  margin: auto;
+  position: relative;
+  background-image: url('ayazaga-map.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid #333;
+  border-radius: 8px;
+}
+
+.bina {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 6px 10px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* ✅ GÜNCELLENMİŞ KOORDİNATLAR */
+#rektorluk {
+  top: 217px;
+  left: 306px;
+}
+
+#kutuphane {
+  top: 417px;
+  left: 293px;
+}
+
+#mdf {
+  top: 318px;
+  left: 402px;
+}
+
+#stadyum {
+  top: 537px;
+  left: 390px;
+}
+
+#golet {
+  top: 516px;
+  left: 720px;
+}
